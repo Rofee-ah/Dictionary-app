@@ -62,6 +62,7 @@ button{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        overflow-x: hidden;
     } 
     h3{
         text-align: center;
@@ -72,7 +73,7 @@ button{
     }
 
     input{
-        width: 250px;
+        width: 200px;
         height: 80px;
         border: none;
         border-radius: 250px;
@@ -86,8 +87,8 @@ button{
     .contains{
         height:100%;
         background-color:lightblue;
-        width:750px;
-        overflow: hidden;
+        width:550px;
+        overflow-x: hidden;
     
     }
 }
