@@ -57,9 +57,9 @@ button{
 }
 @media(max-width:768px){
      img{
-        width: 1000px;
-        height: 500px;
-        background-position: center;
+        width: 1000vw;
+        height: 200px;
+        background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
         overflow-x: hidden;
@@ -73,8 +73,8 @@ button{
     }
 
     input{
-        width: 200px;
-        height: 80px;
+        width: 210px;
+        height: 40px;
         border: none;
         border-radius: 250px;
         font-size: 25px;
@@ -87,10 +87,35 @@ button{
     .contains{
         height:100%;
         background-color:lightblue;
-        width:550px;
+        width:100vw;
         overflow-x: hidden;
-    
+        /* background-position: center; */
     }
+    .divContainer{
+        overflow: hidden;
+    }
+    
+    button{
+        width: 80px;
+        height: 50px;
+        border: none;
+        border-radius: 250px;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-top: 150px;
+    }
+    main{
+        width: 900px;
+        /* margin: auto; */
+        display: flex;
+    }
+
+    .contain{
+        margin-top: 200px;
+    }
+    
+    
 }
 
 

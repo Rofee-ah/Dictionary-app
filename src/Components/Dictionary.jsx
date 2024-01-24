@@ -35,8 +35,9 @@ const Dictionary = () => {
   };
 
   return (
+    <div className='divContainer'>
     <div className='contains'>
-      <section>
+      <section className='sect'>
         <img src={image} alt='' />
         <h3>DICTIONARY APP</h3>
 
@@ -116,6 +117,7 @@ const Dictionary = () => {
         )}
       </div>
     </div>
+  </div>
   );
 };
 
